@@ -4,8 +4,8 @@ Usage:
 
 blur.py [arguments] <image_path>
 
--b --blur_factor : Set the how blurred you want your image (Default: 2)
+-b --blur_factor : Set the how blurred you want your image. (Default: 2)
 
--o --output_path : Set the output path of the blurred image (Default: output.jpg)
+-o --output_path : Set the output path of the blurred image. (Default: output.jpg)
 
--p --progrss     : Show progress in percentage
+-p --progrss     : Show progress in percentage. (Warning: Will slow down the process)
