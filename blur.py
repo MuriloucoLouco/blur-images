@@ -2,6 +2,7 @@ from PIL import Image
 import argparse
 import sys
 import math
+import time
 
 parser = argparse.ArgumentParser(description = 'Program to blur your images')
 parser.add_argument('-b', '--blur_factor', metavar='', default=2, type=int, help='How blurred you want your image to be (default: 2).')
@@ -12,6 +13,7 @@ args, unknown = parser.parse_known_args()
 
 blur_factor = args.blur_factor
 output_path = args.output_path
+start_time = time.time()
 try:
         image_path = unknown[-1]
 except:
@@ -27,6 +29,7 @@ tam = image.size
 output = Image.new('RGB', image.size)
 
 length = 2*blur_factor+1
+
 for i in range(image.size[0]*image.size[1]):
         x = i%image.size[0]
         y = math.ceil(i/image.size[0]+0.000001)-1
@@ -54,5 +57,10 @@ for i in range(image.size[0]*image.size[1]):
         
         output.putpixel((x,y), rgb_medium)
         if args.progress==True:print('Completed %s' % str(100*i/(image.size[0]*image.size[1])), '% ', end="\r")
-if args.progress==True:print('Completed 100%. ', end="\r")
+        
+if args.progress==True:
+        print('                                ', end="\r")
+        print('Completed 100%. ', end="")
 output.save(output_path)
+end_time = time.time()
+print("Took %s seconds" % str(int(end_time)-int(start_time)))
