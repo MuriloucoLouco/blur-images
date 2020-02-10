@@ -8,4 +8,4 @@ blur.py [arguments] <image_path>
 
 -o --output_path : Set the output path of the blurred image. (Default: output.jpg)
 
--p --progrss     : Show progress in percentage. (Warning: Will slow down the process)
+-p --progress    : Show progress in percentage. (Warning: Will slow down the process)
