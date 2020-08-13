@@ -10,5 +10,4 @@ blur.py [arguments] <image_path>
 
 -p --progress    : Show progress in percentage. (Warning: Will slow down the process)
 
-Sim, engenheiros, a ordem de complexidade dessa porcaria é O(n(2b-1)²), sendo 'n' o tamanho da imagem, e 'b' o blur factor.
-Lide com isso.
+Chorem, engenheiros, a **NOVA VERSÃO** ULTRA OTIMIZADA, agora **2 VEZES MAIS RÁPIDO**. Sim, com meu MEGA ALGORITMO COMPLEXO e GENIAL, você pode borrar uma foto de 1000x1000 em **APENAS 0.7 minutos**. Os CORNOS da FACULGADO TEMEM, minha GIGANTE sabedoria.
