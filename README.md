@@ -10,4 +10,4 @@ blur.py [arguments] <image_path>
 
 -p --progress    : Show progress in percentage. (Warning: Will slow down the process)
 
-Chorem, engenheiros, a **NOVA VERSÃO** ULTRA OTIMIZADA, agora **2 VEZES MAIS RÁPIDO**. Sim, com meu MEGA ALGORITMO COMPLEXO e GENIAL, você pode borrar uma foto de 1000x1000 em **APENAS 0.7 minutos**. Os CORNOS da FACULGADO TEMEM, minha GIGANTE sabedoria.
+Chorem, engenheiros, a **NOVA VERSÃO** ULTRA OTIMIZADA, agora **2 VEZES MAIS RÁPIDO**. Sim, com meu MEGA ALGORITMO COMPLEXO e GENIAL, você pode borrar uma foto de 1000x1000 em **APENAS 0.7 minutos**.
